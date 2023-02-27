@@ -1,2 +1,2 @@
 export { default as vari } from './variables'
-export { default as img } from './images'
+export { default as icons } from './icons'

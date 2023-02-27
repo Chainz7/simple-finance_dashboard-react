@@ -10,14 +10,6 @@ export const cardPrimary = "rgb(42,132,248)";
 export const cardSecondary = "rgb(64,210,233)";
 
 export default {
-  primary,
-  secondary,
-  tertiary,
-  fontPrimary,
-  fontSecondary,
-  fontTertiary,
-  iconPrimary,
-  iconSecondary,
-  cardPrimary,
-  cardSecondary
+  primary, secondary, tertiary, fontPrimary, fontSecondary, fontTertiary, iconPrimary, iconSecondary,
+  cardPrimary, cardSecondary
 };
