@@ -19,6 +19,10 @@ html {
   overflow-x: hidden;
 }
 
+body {
+  background-color: rgb(245, 245, 245);
+}
+
 a {
   text-decoration: none;
 }
@@ -53,4 +57,31 @@ a {
     font-size: 20px;
     color: #667085;
   }
+}
+
+@media screen and (max-width: 247px) {
+  .app {
+    display: none;
+  }
+
+  .app-device {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: #101828;
+  }
+
+  .device-small {
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    color: #667085;
+  }
+}
+
+.wid {
+  width: 3500px !important;
 }

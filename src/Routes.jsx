@@ -32,7 +32,7 @@ function App() {
             colors="primary:#121331,secondary:#66dac1,tertiary:#ffc738,quaternary:#ebe6ef"
             style={{width:"250px", height:"250px"}}>
           </lord-icon>
-          <span className="device-small">This Screen Size Is Too Big</span>
+          <span className="device-small">Please Use a Mobile Resolution</span>
         </div>
       </motion.div>
     </>

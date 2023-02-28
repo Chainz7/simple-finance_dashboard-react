@@ -6,7 +6,7 @@ function Left() {
   return (
     <div class="w-1/2 h-auto grid justify-items-start items-start">
       <span class="font-normal text-sm text-fontSecondary">Hello,</span>
-      <span class="font-semibold text-base text-fontTertiary">Aurelia!</span>
+      <span class="font-semibold text-lg text-fontTertiary">Aurelia!</span>
     </div>
   )
 }
