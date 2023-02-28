@@ -1,21 +1,16 @@
 import React from 'react'
-import styled from 'styled-components'
 
-import { vari, icons } from '../../../constants'
 import Top from './Top'
 import Middle from './Middle'
 import Bottom from './Bottom'
 
 function Wrapper() {
-  const Container = styled.div`
-  
-  `
   return (
-    <Container>
+    <div class="w-full h-full grid justify-between items-start gap-4 px-3">
       <Top />
       <Middle />
       <Bottom />
-    </Container>
+    </div>
   )
 }
 

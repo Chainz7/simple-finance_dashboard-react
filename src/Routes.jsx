@@ -1,11 +1,11 @@
-import React from 'react'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import React, { useState } from 'react'
+import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import lottie from 'lottie-web';
 import { defineElement } from 'lord-icon-element';
 
 import './styles.css'
-import { Navbar, Footer } from './containers'
+import { Footer } from './containers'
 import { Dashboard, History } from './pages'
 
 defineElement(lottie.loadAnimation);
@@ -14,7 +14,6 @@ function App() {
     <>
       <div className="app">
         <BrowserRouter>
-          <Navbar />
           <Routes>
             <Route path="/" element={<Dashboard />} />
             <Route path="/history" element={<History />} />

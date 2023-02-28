@@ -1,6 +1,5 @@
 import React from 'react'
 
-import { vari, icons } from '../../../constants'
 import Left from './Left'
 import Right from './Right'
 

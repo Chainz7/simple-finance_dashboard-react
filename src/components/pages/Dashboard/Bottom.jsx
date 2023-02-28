@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 
 import { icons } from '../../../constants'
 
-function Middle() {
+function Bottom() {
   return (
     <div class="grid gap-3 mb-16">
       <div class="w-screen h-auto flex justify-between pr-6 items-center">
@@ -96,4 +96,4 @@ function Middle() {
   )
 }
 
-export default Middle
+export default Bottom
