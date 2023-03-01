@@ -15,7 +15,7 @@ function Top() {
     }
   }
   return (
-    <div class="grid gap-8 pt-4 pb-8 bg-gradient-to-r from-blue-600 to-cyan-300 -ml-3 pl-3">
+    <div class="grid gap-8 pt-2 pb-8 bg-gradient-to-r from-blue-600 to-cyan-300 -ml-3 pl-3">
       <div class="w-screen h-auto flex justify-start items-center pr-6">
         <div class="w-5/6 h-auto flex justify-start items-center gap-2">
           <Link to="/">
