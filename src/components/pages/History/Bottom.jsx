@@ -14,7 +14,7 @@ function Middle() {
     }
   }
   return (
-    <div class="grid gap-3 mb-16">
+    <div class="grid gap-3 -mt-16 mb-16">
       <motion.div variant={opacityIn} whileInView={opacityIn.whileInView}>
         <div class="w-screen h-auto flex justify-between pr-6 items-center">
           <span class="font-semibold text-base text-fontSecondary">History</span>
